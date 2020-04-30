@@ -1,0 +1,1 @@
+﻿https://www.python.org/	true	true	true	0	true	0.008	true	1.9142857142857144	3.6666666666666665	1	125	0

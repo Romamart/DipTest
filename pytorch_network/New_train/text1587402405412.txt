@@ -1,0 +1,1 @@
+﻿https://ru.wikipedia.org/wiki/Python	true	null	true	0	true	0.006564551422319475	true	4.304832713754647	3.3333333333333335	18	2742	0

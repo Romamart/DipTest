@@ -1,0 +1,1 @@
+﻿https://openphish.com/	true	null	true	0	true	0.010869565217391304	true	0.3	3	1	92	0

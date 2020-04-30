@@ -1,0 +1,1 @@
+﻿https://ru.coursera.org/learn/python-osnovy-programmirovaniya	true	null	true	0	true	0.004629629629629629	true	2.4545454545454546	0.08	2	432	0

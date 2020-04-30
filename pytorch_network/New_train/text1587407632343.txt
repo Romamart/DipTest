@@ -1,0 +1,1 @@
+﻿http://91.138.224.107/vtigercrm/storage/2015/November/week2/Apple/IDMSWebAuth/login.html.appIdKey=af1139274f266b22b68c2a3e7ad932cb3c0bbe854e13a79af78dcc73136882c3&path=/signin/Manage&sslEnabled=true/referrer/582652239a711643611273adf719d7dd/Login.php	null	null	false	0	true	-1	true	0	6	0	0	1

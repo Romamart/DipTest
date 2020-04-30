@@ -1,0 +1,1 @@
+﻿http://spacemath.xyz/	true	null	false	0	true	0.0036231884057971015	true	0	2.875	1	276	0

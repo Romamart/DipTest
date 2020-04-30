@@ -1,0 +1,1 @@
+﻿http://www.vigier-cuisine.fr/wp-admin/irs_message?a=contacts	true	null	false	0	true	0.05357142857142857	false	0	1.2727272727272727	3	56	1

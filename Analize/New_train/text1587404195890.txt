@@ -1,0 +1,1 @@
+﻿http://101.0.81.153/nord/reader/	null	null	false	0	true	0	true	-1	-1	0	10	1

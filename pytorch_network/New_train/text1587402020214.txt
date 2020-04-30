@@ -1,0 +1,1 @@
+﻿https://servtraq-staging.azurewebsites.net/Account/Login?ReturnUrl=%2Fdefault.aspx	true	true	true	0	true	0	false	0	2	0	7	0

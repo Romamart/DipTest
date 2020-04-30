@@ -1,0 +1,1 @@
+﻿http://kolmodee.com/Chase-login-account-access/login.php?cmd=login_submit&id=a8e30036a91d2ddb93e5ad64c7a7eae6a8e30036a91d2ddb93e5ad64c7a7eae6&session=a8e30036a91d2ddb93e5ad64c7a7eae6a8e30036a91d2ddb93e5ad64c7a7eae6	true	null	false	0	true	-1	true	-1	1	0	0	1

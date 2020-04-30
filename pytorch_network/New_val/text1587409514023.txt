@@ -1,0 +1,1 @@
+﻿http://anagramist.com/login.php	true	null	false	0	true	0	true	-1	1	0	1	1
