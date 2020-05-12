@@ -17,7 +17,7 @@ var net = new brain.NeuralNetwork();
 
 net.train(train,{
     // errorThresh: 0.005,  // error threshold to reach
-    iterations: 1000,   // maximum training iterations
+    iterations: 5000,   // maximum training iterations
     log: true,           // console.log() progress periodically
     logPeriod: 100,       // number of iterations between logging
     learningRate: 0.001, 
