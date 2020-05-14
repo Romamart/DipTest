@@ -1,0 +1,1 @@
+﻿http://novdir.ru/wordpress/wp-content/themes/twentyseventeen/ne/system/	true	null	false	0	true	0	true	-1	2	0	1	1

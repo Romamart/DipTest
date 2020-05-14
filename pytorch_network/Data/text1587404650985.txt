@@ -1,0 +1,1 @@
+﻿https://barclaycard.signln.link/limit.php?sslchannel=true&sessionid=8Y2NNhqYwiDBgePHu4kKXlulPrqF4eWFhGGCLnmUlgg8YKHhK6qtPA37ijwKAcRZPmeHwSsCKD6OPjTuLxdFh3tPpUmIjcUTePdgsvAqiK0QKY1lKUG	null	null	true	0	true	0.008620689655172414	true	1	5	1	116	1

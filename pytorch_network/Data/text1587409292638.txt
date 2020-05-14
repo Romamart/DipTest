@@ -1,0 +1,1 @@
+﻿http://wagnerpadua.com.br/omsd43/eigjdrhs/login.php?cmd=login_submit&id=3a0829c01f268001b14efcb8ba2dd7433a0829c01f268001b14efcb8ba2dd743&session=3a0829c01f268001b14efcb8ba2dd7433a0829c01f268001b14efcb8ba2dd743	true	null	false	0	true	0.06451612903225806	true	0	1	2	31	1
