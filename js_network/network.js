@@ -1,35 +1,34 @@
-var brain = require('brain.js');
+let brain = require('brain.js');
 
 
-var fs=require('fs');
-var data_tairn=fs.readFileSync('train.json', 'utf8');
-var train=JSON.parse(data_tairn);
-// console.log(words);
-
+let fs=require('fs');
+let max_acc_coef = JSON.parse(fs.readFileSync('Data/max_acc.json', 'utf8')) + 1;
+console.log(max_acc_coef);
+let data_tairn=fs.readFileSync(`Data/train${max_acc_coef}.json`, 'utf8');
+let train = JSON.parse(data_tairn);
+let epochs = JSON.parse(fs.readFileSync('Data/epochs.json', 'utf8'));
 const config = {
-    hiddenLayers: [ 50, 50], 
+    hiddenLayers: [10], 
     activation:  'sigmoid',
-    // praxis: 'adam'
-    // leakyReluAlpha:  0.01
    }
 
-var net = new brain.NeuralNetwork();
-
+let net = new brain.NeuralNetwork(config);
+console.log(epochs[max_acc_coef])
 net.train(train,{
-    // errorThresh: 0.005,  // error threshold to reach
-    iterations: 5000,   // maximum training iterations
-    log: true,           // console.log() progress periodically
-    logPeriod: 100,       // number of iterations between logging
+    errorThresh: 0.005,
+    iterations: epochs[max_acc_coef], 
+    log: true,          
+    logPeriod: 100,      
     learningRate: 0.001, 
-    praxis: 'adam'  // learning rate
+    praxis: 'adam'
 });
 
 let wstream = fs.createWriteStream('model.json');
 wstream.write(JSON.stringify(net.toJSON(),null,2));
 wstream.end();
 
-var data_test = fs.readFileSync('test.json', 'utf8');
-var test = JSON.parse(data_test);
+let data_test = fs.readFileSync(`Data/test${max_acc_coef}.json`, 'utf8');
+let test = JSON.parse(data_test);
 let count = 0;
 console.log(net.run(test[0].input))
 for (let i=0; i<test.length; i++){
@@ -44,7 +43,24 @@ for (let i=0; i<test.length; i++){
         }
     }
 }
+let data_test_gen = fs.readFileSync(`test.json`, 'utf8');
+let test_gen = JSON.parse(data_test_gen);
+let count_gen = 0;
+console.log(net.run(test_gen[0].input))
+for (let i=0; i<test_gen.length; i++){
+    
+    if (net.run(test_gen[i].input)>0.5){
+        if (test_gen[i].output[0] == 1){
+            count_gen++
+        }
+    }else{
+        if (test_gen[i].output[0] == 0){
+            count_gen++
+        }
+    }
+}
 console.log(count/test.length);
-// console.log(net.run([1, 0, 1, 0, 1, 0, 1, 1.8936170212765957, 18.333333333333332, 0, 667]))
+console.log(count_gen/test_gen.length);
+console.log(net.run([1, 0, 1, 1, 0, 1, 1.8936170212765957, 18.333333333333332, 0, 667]))
 
 
